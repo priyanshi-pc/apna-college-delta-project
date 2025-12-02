@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET FOOD DETAILS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Food Product Search</h2>
+
+        <input id="codeInput" type="text" placeholder="Enter Barcode (e.g. 73017624010701)">
+        <button id="searchBtn">Search</button>
+
+        <div id="result" class="card hidden">
+            <img id="productImg" src="" alt="Product Image">
+
+            <h3 id="productName"></h3>
+            <p><strong>Brand:</strong> <span id="brand"></span></p>
+            <p><strong>Ingredients:</strong></p>
+            <ul id="ingredientsList"></ul>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script> 
+
+</body>
+</html>
